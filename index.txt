@@ -1,0 +1,4 @@
+nvidia-smi
+nvidia-smi --query-gpu=power.draw --format=csv
+sudo nvidia-smi -pl 130 // limit the power electrisity
+
